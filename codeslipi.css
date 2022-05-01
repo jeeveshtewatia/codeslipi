@@ -1,0 +1,371 @@
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.nav-item {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.image1 {
+    width: 100%;
+    height: 92vh;
+}
+
+.content-box-web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+}
+
+.head1 {
+    font-weight: 700;
+    font-size: 2.7vw;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.text-center {
+    text-align: center;
+    display: block;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.section {
+    position: relative;
+    padding: 4.5rem;
+    overflow: hidden;
+}
+
+.d-none {
+    padding: 72px 0;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.b {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(193, 153, 230);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left: 128px;
+    margin-top: 23px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    transition: all 0.2s ease 0s;
+    border-radius: 3px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover {
+    color: rgb(192, 0, 0);
+}
+
+.b:hover {
+    color: rgb(201, 153, 230);
+    background: rgb(127, 50, 200);
+    box-shadow: 0px 0px 15px, rgb(127, 50, 200) 0px 0px 40px, rgb(127, 50, 200) 0px 0px 80px;
+    transition-delay: 0.5s;
+    cursor: pointer;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.grip-card {
+    background-color: transparent;
+    width: 400px;
+    height: 250px;
+    perspective: 1000px;
+    border-radius: 5px;
+}
+
+.grip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s ease 0s;
+    transform-style: preserve-3d;
+}
+
+.grip-card:hover .grip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.grip-card-front,
+.grip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.grip-card-front {
+    background-color: rgb(94, 94, 94);
+    color: rgb(191, 191, 191);
+}
+
+.grip-card-back {
+    background-color: rgb(99, 47, 146);
+    color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
+}
+
+.grip-card1 {
+    background-color: transparent;
+    width: 400px;
+    height: 250px;
+    perspective: 1000px;
+    border-radius: 5px;
+}
+
+.grip-card1-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s ease 0s;
+    transform-style: preserve-3d;
+}
+
+.grip-card1:hover .grip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.grip-card1-front,
+.grip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.grip-card1-front {
+    background-color: rgb(94, 94, 94);
+    color: rgb(191, 191, 191);
+}
+
+.grip-card1-back {
+    background-color: rgb(99, 47, 146);
+    color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
+}
+
+.grip-card2 {
+    background-color: transparent;
+    width: 400px;
+    height: 250px;
+    perspective: 1000px;
+    border-radius: 5px;
+}
+
+.grip-card2-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s ease 0s;
+    transform-style: preserve-3d;
+}
+
+.grip-card2:hover .grip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.grip-card2-front,
+.grip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.grip-card2-front {
+    background-color: rgb(94, 94, 94);
+    color: rgb(191, 191, 191);
+}
+
+.grip-card2-back {
+    background-color: rgb(99, 47, 146);
+    color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
+}
+
+.grip-card3 {
+    background-color: transparent;
+    width: 400px;
+    height: 250px;
+    perspective: 1000px;
+    border-radius: 5px;
+}
+
+.grip-card3-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s ease 0s;
+    transform-style: preserve-3d;
+}
+
+.grip-card3:hover .grip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.grip-card3-front,
+.grip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.grip-card3-front {
+    background-color: rgb(94, 94, 94);
+    color: rgb(191, 191, 191);
+}
+
+.grip-card3-back {
+    background-color: rgb(99, 47, 146);
+    color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
+}
+
+.grip-card4 {
+    background-color: transparent;
+    width: 400px;
+    height: 250px;
+    perspective: 1000px;
+    border-radius: 5px;
+}
+
+.grip-card4-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s ease 0s;
+    transform-style: preserve-3d;
+}
+
+.grip-card4:hover .grip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.grip-card4-front,
+.grip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.grip-card4-front {
+    background-color: rgb(94, 94, 94);
+    color: rgb(191, 191, 191);
+}
+
+.grip-card4-back {
+    background-color: rgb(99, 47, 146);
+    color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
+}
+
+.grip-card5 {
+    background-color: transparent;
+    width: 400px;
+    height: 250px;
+    perspective: 1000px;
+}
+
+.grip-card5-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s ease 0s;
+    transform-style: preserve-3d;
+}
+
+.grip-card5:hover .grip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.grip-card5-front,
+.grip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("https://www.codeslipiinfotech.com/images/ar15.png");
+}
+
+.grip-card5-front {
+    background-color: rgb(94, 94, 94);
+    color: rgb(191, 191, 191);
+}
+
+.grip-card5-back {
+    color: rgb(255, 255, 255);
+    background: url("https://www.codeslipiinfotech.com/images/ar15.png");
+    transform: rotateY(180deg);
+}
+
+.paral {
+    background-image: url("https://www.codeslipiinfotech.com/images/parallax3.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    width: 100%;
+    opacity: .9;
+}
+
+section,
+.section-padding {
+    position: relative;
+    padding: 4.5rem 0;
+    overflow: hidden;
+}
+
+.align-item-center {
+    align-items: center;
+}
